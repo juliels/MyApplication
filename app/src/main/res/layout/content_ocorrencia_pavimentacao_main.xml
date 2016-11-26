@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_ocorrencia_pavimentacao_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ribeirogmail.juliel.myapplication.control.OcorrenciaPavimentacaoMainActivity"
+    tools:showIn="@layout/activity_ocorrencia_pavimentacao_main"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.32"
+        android:weightSum="1">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spn_pavimentacao"
+            android:textSize="20sp"
+            android:textColor="#ff0000"
+            android:layout_gravity="center"
+            android:accessibilityLiveRegion="assertive"
+            android:spinnerMode="dialog"
+            android:layout_weight="0.36" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txt_comentario"
+            android:hint="Comentário"
+            android:gravity="center"
+            android:layout_weight="0.40" />
+
+        <ImageButton
+            android:layout_width="263dp"
+            android:layout_height="69dp"
+            android:id="@+id/btn_foto"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:drawable/ic_menu_camera" />
+
+
+
+            <Button
+                android:layout_width="161dp"
+                android:layout_height="wrap_content"
+                android:text="LOCALIZAÇÃO"
+                android:id="@+id/btn_localizacao"
+                android:layout_gravity="center"
+                android:layout_weight="0.28"
+                android:background="#ffffff" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ribeirogmail.juliel.myapplication.control.MainActivity">
+
+    <item
+        android:id="@+id/menuitem_salvar"
+        android:icon="@drawable/ic_action_accept"
+        app:showAsAction="ifRoom"
+        android:title="@string/menu_item_gravar" />
+
+    <item
+        android:id="@+id/menuitem_cancelar"
+        android:icon="@drawable/ic_action_cancel"
+        app:showAsAction="ifRoom"
+        android:title="@string/menu_item_abortar"  />
+
+</menu>
